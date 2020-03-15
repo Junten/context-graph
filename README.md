@@ -3,7 +3,7 @@ SJSU CMPE 295 Master Project
 
 ### steps to run the neuralcoref auto generated knowledge graph
 1. build Spacy from source (do not use pip install)
-
+https://spacy.io/usage
 python -m pip install -U pip                   # update pip
 git clone https://github.com/explosion/spaCy   # clone spaCy
 cd spaCy                                       # navigate into directory
@@ -22,6 +22,10 @@ pip install -e .
 
 3. python -m spacy download en_core_web_lg
 You need to run in Jupyter Notebook with Python 3. Colab doesn't work since it keeps crashing. 
+
+4. remove below two lines of code from file. We used these two lines is to avoid scraping web time by saving the scraped data to a csv file first. 
+pd.read_csv("test1.csv").head()
+wiki_data = pd.read_csv("test1.csv")
 
 
 
