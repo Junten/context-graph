@@ -2,16 +2,15 @@
 SJSU CMPE 295 Master Project
 
 ### steps to run the neuralcoref auto generated knowledge graph
-1. build Spacy from source (do not use pip install)
-https://spacy.io/usage
-python -m pip install -U pip                   # update pip
-git clone https://github.com/explosion/spaCy   # clone spaCy
-cd spaCy                                       # navigate into directory
-
-python -m venv .env                            # create environment in .env
-source .env/bin/activate                       # activate virtual environment
-export PYTHONPATH=`pwd`                        # set Python path to spaCy directory
-pip install -r requirements.txt                # install all requirements
+1. build Spacy from source (**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
+https://spacy.io/usage has instruction on how to build spacy from source. 
+python -m pip install -U pip                   
+git clone https://github.com/explosion/spaCy   
+cd spaCy                                       
+python -m venv .env                            
+source .env/bin/activate                      
+export PYTHONPATH=`pwd`                       
+pip install -r requirements.txt               
 python setup.py build_ext --inplace  
 
 2. build neuralcoref from source (do not use pip install)
@@ -20,10 +19,9 @@ cd neuralcoref
 pip install -r requirements.txt
 pip install -e .
 
-3. python -m spacy download en_core_web_lg
-You need to run in Jupyter Notebook with Python 3. Colab doesn't work since it keeps crashing. 
+3. in terminal: python -m spacy download en_core_web_lg
 
-4. remove below two lines of code from file. We used these two lines is to avoid scraping web time by saving the scraped data to a csv file first. 
+4. remove below two lines of code from file. We used these two lines to avoid scraping web time by saving the scraped data to a csv file first. Then you could scrape data yourself! 
 pd.read_csv("test1.csv").head()
 wiki_data = pd.read_csv("test1.csv")
 
