@@ -1,7 +1,7 @@
 # context-graph
 SJSU CMPE 295 Master Project
 
-### steps to run the Neuralcoref auto generated knowledge graph
+### steps to run the neuralcoref auto generated knowledge graph
 1. build Spacy from source (do not use pip install)
 
 python -m pip install -U pip                   # update pip
