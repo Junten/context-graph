@@ -2,7 +2,9 @@
 SJSU CMPE 295 Master Project
 
 ### steps to run the neuralcoref auto generated knowledge graph
-1. build Spacy from source (**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
+(**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
+
+1. build Spacy from source 
 https://spacy.io/usage has instruction on how to build spacy from source. 
 python -m pip install -U pip                   
 git clone https://github.com/explosion/spaCy   
@@ -14,6 +16,7 @@ pip install -r requirements.txt
 python setup.py build_ext --inplace  
 
 2. build neuralcoref from source (do not use pip install)
+
 git clone https://github.com/huggingface/neuralcoref.git
 cd neuralcoref
 pip install -r requirements.txt
