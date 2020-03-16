@@ -6,6 +6,8 @@ SJSU CMPE 295 Master Project
 
 1. build Spacy from source 
 https://spacy.io/usage has instruction on how to build spacy from source. 
+
+```
 python -m pip install -U pip                   
 git clone https://github.com/explosion/spaCy   
 cd spaCy                                       
@@ -14,15 +16,20 @@ source .env/bin/activate
 export PYTHONPATH=`pwd`                       
 pip install -r requirements.txt               
 python setup.py build_ext --inplace  
+```
 
 2. build neuralcoref from source (do not use pip install)
-
+```
 git clone https://github.com/huggingface/neuralcoref.git
 cd neuralcoref
 pip install -r requirements.txt
 pip install -e .
-
-3. in terminal: python -m spacy download en_core_web_lg
+```
+3. in terminal: 
+```
+python -m spacy download en_core_web_lg
+pip install wikipediaapi
+```
 
 4. remove below two lines of code from file. We used these two lines to avoid scraping web time by saving the scraped data to a csv file first. Then you could scrape data yourself! 
 pd.read_csv("test1.csv").head()
