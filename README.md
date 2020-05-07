@@ -1,6 +1,15 @@
 # context-graph
 SJSU CMPE 295 Master Project
 
+### KNN
+
+### Polynorminal Equation
+
+
+### Topic Predictor 
+
+
+
 ### steps to run the neuralcoref auto generated knowledge graph
 (**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
 
