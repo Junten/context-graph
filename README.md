@@ -49,10 +49,10 @@ Team Members:
 https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok
 
 
-## Polynorminal Equation
+## ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Polynorminal Equation
 To be added 
 
-## Stella Graph Link Prediction
+## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Stella Graph Link Prediction
 
 1.install required packages
 ```
@@ -68,7 +68,7 @@ pip install -q stellargraph[demos]==1.0.0rc1
 <img width="559" alt="plot" src="https://user-images.githubusercontent.com/47645194/81371569-138d7100-90ad-11ea-8435-8b0c675e2b50.png">
 
 
-## Ampligraph 
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)Ampligraph 
 ### steps to run the neuralcoref auto generated knowledge graph
 (**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
 
@@ -105,7 +105,9 @@ wiki_data = pd.read_csv("test1.csv")
 
 
 
-# Process Methodoglogy: 
+# ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Overall Summary
+
+## Deep Context Graph Project Methodoglogy: 
 1. Gather text data from news sources
 2. Perform Named Entity Recognition (NER) with Spacy on the news text data to get a set of entities
 3. Filter the set of entities to obtain a smaller subset containing only interesting and relevant entities: (using entity_type such as Companies and part_of_speech such as Nouns, Adjectives, or a combination of both).
@@ -122,7 +124,7 @@ wiki_data = pd.read_csv("test1.csv")
 11a. To predict the new events, start by performing distillation (with LSTM or Transformer) on the event timeline
 11b. Then, create a deep learning model such as a Neural Network model to predict future events 
 
-# Colabe Links for collaboration 
+## Colabe Links for collaboration 
 https://colab.research.google.com/drive/1ORptuFuArk0tqwhZgX7vPgGKtOL1SZpD?authuser=1 (Data scraping)
 
 https://colab.research.google.com/drive/1tlbxxwPYTQZza5yoyFauF-9RPoBMbTlj?authuser=1 (Data scraping)
