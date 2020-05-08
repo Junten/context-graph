@@ -1,5 +1,11 @@
-# context-graph
+# Deep Context Graph for Actionable Business Decision
 SJSU CMPE 295 Master Project
+
+Team Members: 
+Jia Ma
+Kevin Lai
+Ying Laura Liu
+Junteng Tan
 
 ### KNN
 
