@@ -7,9 +7,9 @@ Team Members:
 - Ying Laura Liu
 - Junteng Tan
 
-```diff
--## KNN Topic Classification
-```
+
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)KNN Topic Classification
+
 
 ### Background
 * **K-nearest neighbors (KNN)** is a machine learning algorithm that is able to perform classification of an object based on the distance between the object and its nearest neighbors.
