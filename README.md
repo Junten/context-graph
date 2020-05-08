@@ -54,12 +54,33 @@ https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok
 
 
 ## ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Polynomial Equation
-To be added 
+**The python notebook was executed and ran on Google Colab.**
+
+Colab Notebook URL: https://colab.research.google.com/drive/1DWw-RBn-Qlgi969fh_Mer2l4NFPpgooi?authuser=1#scrollTo=UzffsZxNkzJ9
+
+* Feature 1.   Sentiment Analysis - 0.84
+* Feature 2.   LDA Topic Modelling - 0.56
+* Feature 3.   Sensationalism - 0.95
+* Feature 4.   Political Affiliation - 0.35
+* Feature 5.   Clickbait - 0.1
+* Feature 6.   Spam - 0.54
+* Feature 7.   Author Credibility - 0.98
+* Feature 8.   Source Reputation - 0.71
+* Feature 9.    Content Length - 0.6
+* Feature 10.   Word Frequency - 1
+* Feature 11.   Bias - 0.05
+
+We use these 11 features to detect the fakeness of the articles as showing above. 
+
+For each features, we use the normalized accuracy as weight. We use the youden's index equation which is shown below to calculate the weight for each feature.
+
+![](https://raw.githubusercontent.com/Junten/context-graph/master/images/polynomial_equation.png?token=ABVFY24NEBDAQTX23Y4QUY26X4DDS)
 
 ## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Stella Graph Link Prediction
 This is a graph embedding neural network to predic a future topic. 
 
 1.install required packages
+
 ```
 pip install tweet-preprocessor
 pip install google-api-python-client
