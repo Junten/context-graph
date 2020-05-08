@@ -15,6 +15,9 @@ pip install -q stellargraph[demos]==1.0.0rc1
 
 2.Runtime Environment: Colab GPU enabled 
 
+3.Training Plot
+
+<img width="559" alt="plot" src="https://user-images.githubusercontent.com/47645194/81371569-138d7100-90ad-11ea-8435-8b0c675e2b50.png">
 
 
 
