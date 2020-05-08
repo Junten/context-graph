@@ -44,7 +44,7 @@ Team Members:
   * The code already contains the necessary commands to install the required libraries.
 
 ## Google Colab Notebook Link
-https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok
+
 
 
 ## Polynorminal Equation
@@ -103,7 +103,7 @@ wiki_data = pd.read_csv("test1.csv")
 
 
 
-# Steps to follow: 
+# Process Methodoglogy: 
 1. Gather text data from news sources
 2. Perform Named Entity Recognition (NER) with Spacy on the news text data to get a set of entities
 3. Filter the set of entities to obtain a smaller subset containing only interesting and relevant entities: (using entity_type such as Companies and part_of_speech such as Nouns, Adjectives, or a combination of both).
@@ -121,6 +121,10 @@ wiki_data = pd.read_csv("test1.csv")
 11b. Then, create a deep learning model such as a Neural Network model to predict future events 
 
 # Colabe Links for collaboration 
-https://colab.research.google.com/drive/1ORptuFuArk0tqwhZgX7vPgGKtOL1SZpD?authuser=1
+https://colab.research.google.com/drive/1ORptuFuArk0tqwhZgX7vPgGKtOL1SZpD?authuser=1 (Data scraping)
 
-https://colab.research.google.com/drive/1tlbxxwPYTQZza5yoyFauF-9RPoBMbTlj?authuser=1
+https://colab.research.google.com/drive/1tlbxxwPYTQZza5yoyFauF-9RPoBMbTlj?authuser=1 (Data scraping)
+
+https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok (KNN)
+
+
