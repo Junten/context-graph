@@ -2,22 +2,25 @@
 SJSU CMPE 295 Master Project
 
 Team Members: 
-Jia Ma
-Kevin Lai
-Ying Laura Liu
-Junteng Tan
+- Jia Ma
+- Kevin Lai
+- Ying Laura Liu
+- Junteng Tan
 
 ### KNN
+To be added 
 
 ### Polynorminal Equation
-
+To be added 
 
 ### Stella Graph Link Prediction
 
 1.install required packages
+```
 pip install tweet-preprocessor
 pip install google-api-python-client
 pip install -q stellargraph[demos]==1.0.0rc1
+```
 
 2.Runtime Environment: Colab GPU enabled 
 
