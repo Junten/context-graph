@@ -97,7 +97,7 @@ pip install -q stellargraph[demos]==1.0.0rc1
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)Ampligraph 
 This is a graph embedding neural network to validate the topic predicted from Stella Graph above.
 
-### steps to run the neuralcoref auto generated knowledge graph
+### steps to run the neuralcoref auto generated knowledge graph and Object-relationship-subject triplets
 (**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
 
 1. build Spacy from source 
@@ -131,7 +131,13 @@ pip install wikipediaapi
 pd.read_csv("test1.csv").head()
 wiki_data = pd.read_csv("test1.csv")
 
+5. Ampligraph used the generated triplets as training, testing, validation datasets. Here is colab link for the 4 ampligraph models ComplEx  DistMult, RESCAL, TransE: 
+https://colab.research.google.com/drive/1wnm8betVQB67S-8K0D8oZo13ShVtjntj#scrollTo=CebLOmJWegRj
+https://colab.research.google.com/drive/19RaziEiyr8VVXMKg9OpBc2PMagt5J0i0#scrollTo=CebLOmJWegRj
+https://colab.research.google.com/drive/1ywTXZl2JbvyK91cadxkB5FI0OI33K8ld#scrollTo=G1phXrSeegT6
+https://colab.research.google.com/drive/1NV06M6TICUigKbQt9kQ5wsHL6L2oEYHB#scrollTo=CebLOmJWegRj
 
+6. Ampligrah is used to validate Stella Graph predicted topic's probability and likelihood ranking. 
 
 # ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Overall Summary
 
