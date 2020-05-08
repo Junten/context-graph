@@ -7,7 +7,9 @@ Team Members:
 - Ying Laura Liu
 - Junteng Tan
 
-## KNN Topic Classification
+```diff
+-## KNN Topic Classification
+```
 
 ### Background
 * **K-nearest neighbors (KNN)** is a machine learning algorithm that is able to perform classification of an object based on the distance between the object and its nearest neighbors.
@@ -43,8 +45,8 @@ Team Members:
   * You do not need to install anything locally when running the code on Google Colab.
   * The code already contains the necessary commands to install the required libraries.
 
-## Google Colab Notebook Link
-
+### Google Colab Notebook Link
+https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok
 
 
 ## Polynorminal Equation
@@ -125,6 +127,5 @@ https://colab.research.google.com/drive/1ORptuFuArk0tqwhZgX7vPgGKtOL1SZpD?authus
 
 https://colab.research.google.com/drive/1tlbxxwPYTQZza5yoyFauF-9RPoBMbTlj?authuser=1 (Data scraping)
 
-https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok (KNN)
 
 
