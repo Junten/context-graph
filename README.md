@@ -53,10 +53,11 @@ Team Members:
 https://colab.research.google.com/drive/1KKGNYr6HtdLNMkcIAr3-pGPTw26U1-ok
 
 
-## ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Polynorminal Equation
+## ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Polynomial Equation
 To be added 
 
 ## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Stella Graph Link Prediction
+This is a graph embedding neural network to predic a future topic. 
 
 1.install required packages
 ```
@@ -73,6 +74,8 @@ pip install -q stellargraph[demos]==1.0.0rc1
 
 
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)Ampligraph 
+This is a graph embedding neural network to validate the topic predicted from Stella Graph above.
+
 ### steps to run the neuralcoref auto generated knowledge graph
 (**do not use pip install. we want to use the latest Spacy version in the later part of the code. But Neuralcoref 4.0 is not compatible with Spacy's 'pip install' version. We have to build from source for both Spacy and Neuralcoref to execute this code in Jupyter Notebook with Python 3.Colab doesn't work since it keeps crashing with Spay and Neuralcoref together.**)
 
