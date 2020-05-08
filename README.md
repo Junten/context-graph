@@ -8,7 +8,8 @@ Team Members:
 - Junteng Tan
 
 
-<img width="559" alt="plot" src="https://github.com/Junten/context-graph/blob/master/Master_Project_Poster.pdf">
+![alt text](https://github.com/Junten/context-graph/blob/master/Master_Project_Poster.png)
+
 
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)KNN Topic Classification
 
